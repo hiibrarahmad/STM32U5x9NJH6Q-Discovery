@@ -1,7 +1,16 @@
 Protel Design System Design Rule Check
-PCB File : I:\STM\MB1829.PcbDoc
+PCB File : G:\3dmodel.github.io\STM32U5x9NJH6Q-Discovery\MB1829.PcbDoc
 Date     : 12/22/2024
-Time     : 2:30:51 PM
+Time     : 3:06:04 PM
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('OSC')),(InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('OSC')),(InNetClass('OSC'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (OnLayer('Signal Layer 4')),(InNetClass('USB High Speed'))
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('Audio')),(InNet('GND'))
 Rule Violations :0
@@ -9,21 +18,22 @@ Rule Violations :0
 Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('50Ohms')),(InNet('GND'))
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.1mm) (OnLayer('Signal Layer 4')),(InNetClass('USB High Speed'))
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InNet('NetL6_1') or InNet('NetL7_1')),(InNet('GND'))
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('USB High Speed')),(InNet('GND'))
+Processing Rule : Clearance Constraint (Gap=0.085mm) (WithinRoom('RoomDefinition_1')and TouchesRoom('RoomDefinition_1')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('50Ohms')),(OnLayer('Signal Layer 4'))
+Processing Rule : Clearance Constraint (Gap=0.085mm) (WithinRoom('RoomDefinition_2')and TouchesRoom('RoomDefinition_2')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (WithinRoom('RoomDefinition')and TouchesRoom('RoomDefinition')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('50Ohms')),(InNetClass('50Ohms'))
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
-   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad CN2-1(15.579mm,48.979mm) on Multi-Layer And Pad H5-PTH1(15.579mm,48.979mm) on Multi-Layer 
-   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad H5-PTH1(15.579mm,48.979mm) on Multi-Layer And Via (13.489mm,48.21mm) from Top Layer to Bottom Layer 
-   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad H5-PTH1(15.579mm,48.979mm) on Multi-Layer And Via (14.81mm,51.069mm) from Top Layer to Bottom Layer 
-   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad H5-PTH1(15.579mm,48.979mm) on Multi-Layer And Via (16.348mm,46.889mm) from Top Layer to Bottom Layer 
-   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad H5-PTH1(15.579mm,48.979mm) on Multi-Layer And Via (17.669mm,49.748mm) from Top Layer to Bottom Layer 
    Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-A1(20.085mm,34.286mm) on Bottom Layer And Track (19.835mm,34.036mm)(19.835mm,34.485mm) on Bottom Layer 
    Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U26-A2(19.585mm,34.286mm) on Bottom Layer And Track (19.345mm,34.186mm)(19.345mm,34.62mm) on Bottom Layer 
    Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-A2(19.585mm,34.286mm) on Bottom Layer And Track (19.835mm,34.036mm)(19.835mm,34.485mm) on Bottom Layer 
@@ -100,33 +110,18 @@ Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
    Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Track (58.425mm,15.487mm)(58.835mm,15.077mm) on Top Layer And Track (58.65mm,13.35mm)(58.65mm,15mm) on Top Layer 
    Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Track (58.65mm,13.35mm)(58.65mm,15mm) on Top Layer And Track (58.835mm,13.41mm)(58.835mm,15.077mm) on Top Layer 
    Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Track (58.65mm,13.35mm)(58.65mm,15mm) on Top Layer And Track (58.835mm,13.41mm)(59.07mm,13.175mm) on Top Layer 
-Rule Violations :81
+Rule Violations :76
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('50Ohms')),(OnLayer('Signal Layer 4'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('VREFP_AGND_VDDA')),(InNet('GND'))
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('DSI')),(InNet('GND'))
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.085mm) (WithinRoom('RoomDefinition_1')and TouchesRoom('RoomDefinition_1')),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.1mm) (InNet('NetL6_1') or InNet('NetL7_1')),(InNet('GND'))
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.085mm) (WithinRoom('RoomDefinition_2')and TouchesRoom('RoomDefinition_2')),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('50Ohms')),(InNetClass('50Ohms'))
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('OSC')),(InNet('GND'))
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('OSC')),(InNetClass('OSC'))
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.1mm) (WithinRoom('RoomDefinition')and TouchesRoom('RoomDefinition')),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('VREFP_AGND_VDDA')),(InNet('GND'))
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('USB High Speed')),(InNet('GND'))
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (OnLayer('Top Layer')),(OnLayer('Top Layer'))
@@ -136,15 +131,11 @@ Processing Rule : Un-Routed Net Constraint ( (All) )
    Violation between Un-Routed Net Constraint: Area Fill (13.3mm,106.8mm) (14.75mm,107.45mm) on Top Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Via (13.675mm,107.125mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Via (14.325mm,107.125mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Net GND Between Via (17.475mm,52.725mm) from Top Layer to Bottom Layer And Via (17.669mm,49.748mm) from Top Layer to Bottom Layer 
    Violation between Un-Routed Net Constraint: Via (56.6mm,52.75mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Via (57.75mm,55.6mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Via (59mm,51.425mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Via (60.475mm,54.125mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-Rule Violations :8
-
-Processing Rule : Width Constraint (Min=0.09mm) (Max=0.254mm) (Preferred=0.1mm) (InNetClass('50Ohms'))
-Rule Violations :0
+Rule Violations :7
 
 Processing Rule : Width Constraint (Min=0.09mm) (Max=10mm) (Preferred=0.12mm) (All)
    Violation between Width Constraint: Track (16.845mm,27.505mm)(16.845mm,28.899mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
@@ -208,110 +199,47 @@ Rule Violations :56
 Processing Rule : Width Constraint (Min=0.08mm) (Max=10mm) (Preferred=0.1mm) (WithinRoom('RoomDefinition')and TouchesRoom('RoomDefinition'))
 Rule Violations :0
 
+Processing Rule : Width Constraint (Min=0.09mm) (Max=0.254mm) (Preferred=0.1mm) (InNetClass('50Ohms'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.08mm) (Max=10mm) (Preferred=0.1mm) (WithinRoom('RoomDefinition_1')and TouchesRoom('RoomDefinition_1'))
+Rule Violations :0
+
 Processing Rule : Width Constraint (Min=0.08mm) (Max=10mm) (Preferred=0.25mm) (InNetClass('Alim'))
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.08mm) (Max=10mm) (Preferred=0.12mm) (WithinRoom('RoomDefinition_2')and TouchesRoom('RoomDefinition_2'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.08mm) (Max=10mm) (Preferred=0.1mm) (WithinRoom('RoomDefinition_1')and TouchesRoom('RoomDefinition_1'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.IO15'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.DQS1'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.IO11'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNetClass('OCTOSPI'))
-Rule Violations :0
-
 Processing Rule : Routing Layers(InNetClass('USB High Speed'))
 Rule Violations :0
 
-Processing Rule : Routing Layers(InNet('HEXASPI1.IO9'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(All)
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.IO12'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.IO4'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.IO0'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.IO2'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.IO1'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.IO14'))
-   Violation between Routing Layers: Track (32.075mm,11.075mm)(32.075mm,23.111mm) on Bottom Layer - Layer Not Allowed
-   Violation between Routing Layers: Track (32.075mm,11.075mm)(33.075mm,10.075mm) on Bottom Layer - Layer Not Allowed
-   Violation between Routing Layers: Track (32.075mm,23.111mm)(35.076mm,26.112mm) on Bottom Layer - Layer Not Allowed
-   Violation between Routing Layers: Track (33.075mm,10.075mm)(37.6mm,10.075mm) on Bottom Layer - Layer Not Allowed
-   Violation between Routing Layers: Track (35.076mm,26.112mm)(35.076mm,26.651mm) on Bottom Layer - Layer Not Allowed
-   Violation between Routing Layers: Track (35.076mm,26.651mm)(35.975mm,27.55mm) on Bottom Layer - Layer Not Allowed
-   Violation between Routing Layers: Track (35.975mm,27.55mm)(35.975mm,28.95mm) on Bottom Layer - Layer Not Allowed
-   Violation between Routing Layers: Track (35.975mm,28.95mm)(36mm,28.975mm) on Bottom Layer - Layer Not Allowed
-   Violation between Routing Layers: Track (36mm,28.975mm)(36mm,30.35mm) on Bottom Layer - Layer Not Allowed
-   Violation between Routing Layers: Track (36mm,30.35mm)(36.5mm,30.85mm) on Bottom Layer - Layer Not Allowed
-   Violation between Routing Layers: Track (37.6mm,10.075mm)(38.175mm,10.65mm) on Bottom Layer - Layer Not Allowed
-   Violation between Routing Layers: Track (38.175mm,10.65mm)(38.175mm,11mm) on Bottom Layer - Layer Not Allowed
-Rule Violations :12
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.DQS0'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.NCS'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.IO13'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.IO6'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.IO5'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.IO10'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.IO3'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.IO7'))
-Rule Violations :0
-
-Processing Rule : Routing Layers(InNet('HEXASPI1.IO8'))
+Processing Rule : Routing Layers(InNetClass('HEXASPI'))
 Rule Violations :0
 
 Processing Rule : Routing Layers(InNetClass('HEXADECASPI'))
 Rule Violations :0
 
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNetClass('OCTOSPI'))
+Rule Violations :0
+
 Processing Rule : Routing Via (MinHoleWidth=0.1mm) (MaxHoleWidth=0.2mm) (PreferredHoleWidth=0.2mm) (MinWidth=0.25mm) (MaxWidth=0.45mm) (PreferedWidth=0.45mm) (All)
 Rule Violations :0
 
-Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.127mm) (Max=0.254mm) (Prefered=0.254mm)  and Width Constraints (Min=0.044mm) (Max=0.381mm) (Prefered=0.381mm) (InDifferentialPairClass('DSI'))
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.1mm) (Max=0.254mm) (Prefered=0.127mm)  and Width Constraints (Min=0.095mm) (Max=0.381mm) (Prefered=0.381mm) (InDifferentialPairClass('USB'))
 Rule Violations :0
 
-Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.1mm) (Max=0.254mm) (Prefered=0.127mm)  and Width Constraints (Min=0.095mm) (Max=0.381mm) (Prefered=0.381mm) (InDifferentialPairClass('USB'))
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.127mm) (Max=0.254mm) (Prefered=0.254mm)  and Width Constraints (Min=0.044mm) (Max=0.381mm) (Prefered=0.381mm) (InDifferentialPairClass('DSI'))
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.21mm) (Air Gap=0.21mm) (Entries=4) (All)
 Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=0.2mm) (All),(All)
-   Violation between Hole To Hole Clearance Constraint: (Collision < 0.2mm) Between Pad CN2-1(15.579mm,48.979mm) on Multi-Layer And Pad H5-PTH1(15.579mm,48.979mm) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.2mm) Between Pad CN2-PTH1(15.579mm,48.979mm) on Multi-Layer And Pad H5-PTH1(15.579mm,48.979mm) on Multi-Layer Pad/Via Touching Holes
    Violation between Hole To Hole Clearance Constraint: (Collision < 0.2mm) Between Pad CN2-PTH2(58.519mm,53.51mm) on Multi-Layer And Pad H4-PTH1(58.519mm,53.51mm) on Multi-Layer Pad/Via Touching Holes
    Violation between Hole To Hole Clearance Constraint: (0.183mm < 0.2mm) Between Via (40.3mm,39.85mm) from Signal Layer 4 to Bottom Layer And Via (40.5mm,39.65mm) from Signal Layer 3 to Signal Layer 4 
    Violation between Hole To Hole Clearance Constraint: (0.183mm < 0.2mm) Between Via (55.175mm,10.125mm) from Top Layer to Signal Layer 1 And Via (55.375mm,10.325mm) from Signal Layer 1 to Signal Layer 2 
@@ -330,16 +258,24 @@ Processing Rule : Hole To Hole Clearance (Gap=0.2mm) (All),(All)
 Rule Violations :16
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-   Violation between Net Antennae: Via (13.489mm,48.21mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (14.81mm,51.069mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (16.348mm,46.889mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (17.669mm,49.748mm) from Top Layer to Bottom Layer 
-Rule Violations :4
-
-Processing Rule : Matched Lengths(Tolerance=17.78mm Target=Not defined) (InxSignalClass('HexaSPI_NCS'))
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InxSignalClass('HexaSPI_Byte1'))
+Processing Rule : Matched Lengths(Tolerance=6.35mm Target=Not defined) (InxSignalClass('SDMMC2'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InxSignalClass('JTAG_MCU'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=19.05mm Target=Not defined) (InxSignalClass('OctoSPI_NCS'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=6.35mm Target=Not defined) (InxSignalClass('SPI_B'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InxSignalClass('JTAG_CN11'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=2.54mm Target=Not defined) (InxSignalClass('JTAG_STLink'))
 Rule Violations :0
 
 Processing Rule : Matched Lengths(Tolerance=0.127mm Target=Not defined) (InNet('DSI.CK_N'))
@@ -348,47 +284,34 @@ Rule Violations :0
 Processing Rule : Matched Lengths(Tolerance=6.35mm Target=Not defined) (InNetClass('SPI3'))
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Tolerance=19.05mm Target=Not defined) (InxSignalClass('OctoSPI_NCS'))
-Rule Violations :0
-
-Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InDifferentialPairClass('USB'))
-Rule Violations :0
-
-Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InxSignalClass('JTAG_MCU'))
-Rule Violations :0
-
-Processing Rule : Matched Lengths(Tolerance=6.35mm Target=Not defined) (InxSignalClass('SDMMC2'))
-Rule Violations :0
-
-Processing Rule : Matched Lengths(Tolerance=6.35mm Target=Not defined) (InxSignalClass('SPI_B'))
-Rule Violations :0
-
-Processing Rule : Matched Lengths(Tolerance=2.54mm Target=Not defined) (InxSignalClass('JTAG_STLink'))
-Rule Violations :0
-
 Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InxSignalClass('JTAG_CN10'))
-Rule Violations :0
-
-Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InxSignalClass('JTAG_CN11'))
 Rule Violations :0
 
 Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InxSignalClass('OctoSPI_Byte0'))
 Rule Violations :0
 
 Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InxSignalClass('eMMC'))
-   Violation between Matched Net Lengths: Between xSignal(SDMMC1.CMD_PP2) And xSignal(SDMMC1.D5_PP2) Actual Length Difference against xSignal SDMMC1.D5_PP2 is: 1.319mm, Length Tolerance : 1.27mm.
-Rule Violations :1
-
-Processing Rule : Matched Lengths(Tolerance=0.254mm Target=Not defined) (InDifferentialPairClass('DSI'))
-Rule Violations :0
-
-Processing Rule : Matched Lengths(Tolerance=6.35mm Target=Not defined) (InxSignalClass('Audio_SAI2'))
 Rule Violations :0
 
 Processing Rule : Matched Lengths(Tolerance=6.35mm Target=Not defined) (InxSignalClass('Audio_SAI1'))
 Rule Violations :0
 
 Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InxSignalClass('HexaSPI_Byte0'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.254mm Target=Not defined) (InDifferentialPairClass('DSI'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InxSignalClass('HexaSPI_Byte1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=17.78mm Target=Not defined) (InxSignalClass('HexaSPI_NCS'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InDifferentialPairClass('USB'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=6.35mm Target=Not defined) (InxSignalClass('Audio_SAI2'))
 Rule Violations :0
 
 Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('SDMMC1.D6'))
@@ -539,6 +462,6 @@ Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNetCl
 Rule Violations :0
 
 
-Violations Detected : 190
+Violations Detected : 167
 Waived Violations : 0
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:01
