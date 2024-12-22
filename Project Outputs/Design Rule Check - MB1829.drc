@@ -1,0 +1,544 @@
+Protel Design System Design Rule Check
+PCB File : I:\STM\MB1829.PcbDoc
+Date     : 12/22/2024
+Time     : 2:30:51 PM
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('Audio')),(InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('50Ohms')),(InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (OnLayer('Signal Layer 4')),(InNetClass('USB High Speed'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('USB High Speed')),(InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('50Ohms')),(OnLayer('Signal Layer 4'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
+   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad CN2-1(15.579mm,48.979mm) on Multi-Layer And Pad H5-PTH1(15.579mm,48.979mm) on Multi-Layer 
+   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad H5-PTH1(15.579mm,48.979mm) on Multi-Layer And Via (13.489mm,48.21mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad H5-PTH1(15.579mm,48.979mm) on Multi-Layer And Via (14.81mm,51.069mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad H5-PTH1(15.579mm,48.979mm) on Multi-Layer And Via (16.348mm,46.889mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad H5-PTH1(15.579mm,48.979mm) on Multi-Layer And Via (17.669mm,49.748mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-A1(20.085mm,34.286mm) on Bottom Layer And Track (19.835mm,34.036mm)(19.835mm,34.485mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U26-A2(19.585mm,34.286mm) on Bottom Layer And Track (19.345mm,34.186mm)(19.345mm,34.62mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-A2(19.585mm,34.286mm) on Bottom Layer And Track (19.835mm,34.036mm)(19.835mm,34.485mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U26-A3(19.085mm,34.286mm) on Bottom Layer And Track (18.845mm,34.186mm)(18.845mm,34.975mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-A6(17.585mm,34.286mm) on Bottom Layer And Track (17.335mm,34.036mm)(17.335mm,34.325mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.088mm < 0.1mm) Between Pad U26-A6(17.585mm,34.286mm) on Bottom Layer And Track (17.335mm,34.325mm)(17.335mm,34.463mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U26-A6(17.585mm,34.286mm) on Bottom Layer And Track (17.825mm,34.186mm)(17.825mm,34.975mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-A7(17.085mm,34.286mm) on Bottom Layer And Track (17.335mm,34.036mm)(17.335mm,34.325mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.088mm < 0.1mm) Between Pad U26-A7(17.085mm,34.286mm) on Bottom Layer And Track (17.335mm,34.325mm)(17.335mm,34.463mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad U26-C1(20.085mm,33.286mm) on Bottom Layer And Track (19.585mm,33.286mm)(20.211mm,33.286mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad U26-C1(20.085mm,33.286mm) on Bottom Layer And Track (20.211mm,33.286mm)(20.275mm,33.35mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad U26-C1(20.085mm,33.286mm) on Bottom Layer And Track (20.275mm,33.35mm)(20.897mm,33.35mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-F1(20.085mm,31.786mm) on Bottom Layer And Track (18.835mm,31.536mm)(20.361mm,31.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-F2(19.585mm,31.786mm) on Bottom Layer And Track (18.835mm,31.536mm)(20.361mm,31.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-F3(19.085mm,31.786mm) on Bottom Layer And Track (18.835mm,31.536mm)(20.361mm,31.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-G1(20.085mm,31.286mm) on Bottom Layer And Track (18.835mm,31.536mm)(20.361mm,31.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-G2(19.585mm,31.286mm) on Bottom Layer And Track (18.835mm,31.536mm)(20.361mm,31.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-G3(19.085mm,31.286mm) on Bottom Layer And Track (18.835mm,31.536mm)(20.361mm,31.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-K1(20.085mm,29.786mm) on Bottom Layer And Track (18.929mm,29.536mm)(20.299mm,29.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-K2(19.585mm,29.786mm) on Bottom Layer And Track (18.929mm,29.536mm)(20.299mm,29.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-K3(19.085mm,29.786mm) on Bottom Layer And Track (18.929mm,29.536mm)(20.299mm,29.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-L1(20.085mm,29.286mm) on Bottom Layer And Track (18.929mm,29.536mm)(20.299mm,29.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-L2(19.585mm,29.286mm) on Bottom Layer And Track (18.929mm,29.536mm)(20.299mm,29.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-L3(19.085mm,29.286mm) on Bottom Layer And Track (18.929mm,29.536mm)(20.299mm,29.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-M6(17.585mm,28.786mm) on Bottom Layer And Track (17.436mm,28.536mm)(17.835mm,28.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U26-M7(17.085mm,28.786mm) on Bottom Layer And Track (16.845mm,27.505mm)(16.845mm,28.899mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-M7(17.085mm,28.786mm) on Bottom Layer And Track (16.845mm,28.899mm)(16.972mm,29.026mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U26-M7(17.085mm,28.786mm) on Bottom Layer And Track (16.972mm,29.026mm)(17.345mm,29.026mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U26-N6(17.585mm,28.286mm) on Bottom Layer And Track (17.436mm,28.536mm)(17.835mm,28.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U26-N7(17.085mm,28.286mm) on Bottom Layer And Track (16.845mm,27.505mm)(16.845mm,28.899mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U26-N7(17.085mm,28.286mm) on Bottom Layer And Track (17.325mm,27.475mm)(17.325mm,28.425mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad U26-P1(20.085mm,27.786mm) on Bottom Layer And Track (19.585mm,28.286mm)(20.448mm,27.423mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U26-P7(17.085mm,27.786mm) on Bottom Layer And Track (16.845mm,27.505mm)(16.845mm,28.899mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U26-P7(17.085mm,27.786mm) on Bottom Layer And Track (17.325mm,27.475mm)(17.325mm,28.425mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-A1(20.085mm,34.286mm) on Bottom Layer And Track (19.835mm,34.036mm)(19.835mm,34.485mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U27-A2(19.585mm,34.286mm) on Bottom Layer And Track (19.345mm,34.186mm)(19.345mm,34.62mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-A2(19.585mm,34.286mm) on Bottom Layer And Track (19.835mm,34.036mm)(19.835mm,34.485mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U27-A3(19.085mm,34.286mm) on Bottom Layer And Track (18.845mm,34.186mm)(18.845mm,34.975mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-A6(17.585mm,34.286mm) on Bottom Layer And Track (17.335mm,34.036mm)(17.335mm,34.325mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.088mm < 0.1mm) Between Pad U27-A6(17.585mm,34.286mm) on Bottom Layer And Track (17.335mm,34.325mm)(17.335mm,34.463mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U27-A6(17.585mm,34.286mm) on Bottom Layer And Track (17.825mm,34.186mm)(17.825mm,34.975mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-A7(17.085mm,34.286mm) on Bottom Layer And Track (17.335mm,34.036mm)(17.335mm,34.325mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.088mm < 0.1mm) Between Pad U27-A7(17.085mm,34.286mm) on Bottom Layer And Track (17.335mm,34.325mm)(17.335mm,34.463mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad U27-C1(20.085mm,33.286mm) on Bottom Layer And Track (19.585mm,33.286mm)(20.211mm,33.286mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad U27-C1(20.085mm,33.286mm) on Bottom Layer And Track (20.211mm,33.286mm)(20.275mm,33.35mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad U27-C1(20.085mm,33.286mm) on Bottom Layer And Track (20.275mm,33.35mm)(20.897mm,33.35mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-F1(20.085mm,31.786mm) on Bottom Layer And Track (18.835mm,31.536mm)(20.361mm,31.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-F2(19.585mm,31.786mm) on Bottom Layer And Track (18.835mm,31.536mm)(20.361mm,31.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-F3(19.085mm,31.786mm) on Bottom Layer And Track (18.835mm,31.536mm)(20.361mm,31.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-G1(20.085mm,31.286mm) on Bottom Layer And Track (18.835mm,31.536mm)(20.361mm,31.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-G2(19.585mm,31.286mm) on Bottom Layer And Track (18.835mm,31.536mm)(20.361mm,31.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-G3(19.085mm,31.286mm) on Bottom Layer And Track (18.835mm,31.536mm)(20.361mm,31.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-K1(20.085mm,29.786mm) on Bottom Layer And Track (18.929mm,29.536mm)(20.299mm,29.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-K2(19.585mm,29.786mm) on Bottom Layer And Track (18.929mm,29.536mm)(20.299mm,29.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-K3(19.085mm,29.786mm) on Bottom Layer And Track (18.929mm,29.536mm)(20.299mm,29.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-L1(20.085mm,29.286mm) on Bottom Layer And Track (18.929mm,29.536mm)(20.299mm,29.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-L2(19.585mm,29.286mm) on Bottom Layer And Track (18.929mm,29.536mm)(20.299mm,29.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-L3(19.085mm,29.286mm) on Bottom Layer And Track (18.929mm,29.536mm)(20.299mm,29.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-M6(17.585mm,28.786mm) on Bottom Layer And Track (17.436mm,28.536mm)(17.835mm,28.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U27-M7(17.085mm,28.786mm) on Bottom Layer And Track (16.845mm,27.505mm)(16.845mm,28.899mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-M7(17.085mm,28.786mm) on Bottom Layer And Track (16.845mm,28.899mm)(16.972mm,29.026mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U27-M7(17.085mm,28.786mm) on Bottom Layer And Track (16.972mm,29.026mm)(17.345mm,29.026mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.095mm < 0.1mm) Between Pad U27-N6(17.585mm,28.286mm) on Bottom Layer And Track (17.436mm,28.536mm)(17.835mm,28.536mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U27-N7(17.085mm,28.286mm) on Bottom Layer And Track (16.845mm,27.505mm)(16.845mm,28.899mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U27-N7(17.085mm,28.286mm) on Bottom Layer And Track (17.325mm,27.475mm)(17.325mm,28.425mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad U27-P1(20.085mm,27.786mm) on Bottom Layer And Track (19.585mm,28.286mm)(20.448mm,27.423mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U27-P7(17.085mm,27.786mm) on Bottom Layer And Track (16.845mm,27.505mm)(16.845mm,28.899mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Pad U27-P7(17.085mm,27.786mm) on Bottom Layer And Track (17.325mm,27.475mm)(17.325mm,28.425mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.094mm < 0.1mm) Between Track (58.225mm,12.925mm)(58.65mm,13.35mm) on Top Layer And Track (58.835mm,13.41mm)(58.835mm,15.077mm) on Top Layer 
+   Violation between Clearance Constraint: (0.094mm < 0.1mm) Between Track (58.225mm,12.925mm)(58.65mm,13.35mm) on Top Layer And Track (58.835mm,13.41mm)(59.07mm,13.175mm) on Top Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Track (58.2mm,15.45mm)(58.65mm,15mm) on Top Layer And Track (58.425mm,15.487mm)(58.425mm,16.05mm) on Top Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Track (58.2mm,15.45mm)(58.65mm,15mm) on Top Layer And Track (58.425mm,15.487mm)(58.835mm,15.077mm) on Top Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Track (58.2mm,15.45mm)(58.65mm,15mm) on Top Layer And Track (58.835mm,13.41mm)(58.835mm,15.077mm) on Top Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Track (58.425mm,15.487mm)(58.835mm,15.077mm) on Top Layer And Track (58.65mm,13.35mm)(58.65mm,15mm) on Top Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Track (58.65mm,13.35mm)(58.65mm,15mm) on Top Layer And Track (58.835mm,13.41mm)(58.835mm,15.077mm) on Top Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.1mm) Between Track (58.65mm,13.35mm)(58.65mm,15mm) on Top Layer And Track (58.835mm,13.41mm)(59.07mm,13.175mm) on Top Layer 
+Rule Violations :81
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('DSI')),(InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.085mm) (WithinRoom('RoomDefinition_1')and TouchesRoom('RoomDefinition_1')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InNet('NetL6_1') or InNet('NetL7_1')),(InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.085mm) (WithinRoom('RoomDefinition_2')and TouchesRoom('RoomDefinition_2')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('50Ohms')),(InNetClass('50Ohms'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('OSC')),(InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('OSC')),(InNetClass('OSC'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (WithinRoom('RoomDefinition')and TouchesRoom('RoomDefinition')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('VREFP_AGND_VDDA')),(InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (OnLayer('Top Layer')),(OnLayer('Top Layer'))
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Area Fill (13.3mm,106.8mm) (14.75mm,107.45mm) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (13.675mm,107.125mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (14.325mm,107.125mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Net GND Between Via (17.475mm,52.725mm) from Top Layer to Bottom Layer And Via (17.669mm,49.748mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Via (56.6mm,52.75mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (57.75mm,55.6mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (59mm,51.425mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (60.475mm,54.125mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+Rule Violations :8
+
+Processing Rule : Width Constraint (Min=0.09mm) (Max=0.254mm) (Preferred=0.1mm) (InNetClass('50Ohms'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.09mm) (Max=10mm) (Preferred=0.12mm) (All)
+   Violation between Width Constraint: Track (16.845mm,27.505mm)(16.845mm,28.899mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (16.845mm,28.899mm)(16.972mm,29.026mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (16.972mm,29.026mm)(17.345mm,29.026mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (17.325mm,27.475mm)(17.325mm,28.425mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (17.325mm,28.425mm)(17.436mm,28.536mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (17.335mm,34.036mm)(17.335mm,34.325mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (17.335mm,34.036mm)(17.585mm,33.786mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (17.345mm,29.026mm)(17.585mm,28.786mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (17.436mm,28.536mm)(17.835mm,28.536mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (17.825mm,34.046mm)(17.825mm,34.186mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (17.825mm,34.046mm)(18.085mm,33.786mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (17.825mm,34.186mm)(17.825mm,34.186mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (17.825mm,34.186mm)(17.825mm,34.975mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (17.835mm,28.536mm)(18.085mm,28.786mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (18.585mm,33.786mm)(18.846mm,34.046mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (18.835mm,31.536mm)(20.361mm,31.536mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (18.845mm,34.186mm)(18.845mm,34.975mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (18.846mm,34.046mm)(18.846mm,34.186mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (18.929mm,29.536mm)(20.299mm,29.536mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (19.085mm,33.786mm)(19.346mm,34.046mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (19.345mm,34.186mm)(19.345mm,34.62mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (19.345mm,34.186mm)(19.346mm,34.186mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (19.346mm,34.046mm)(19.346mm,34.186mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (19.585mm,33.786mm)(19.835mm,34.036mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (19.835mm,34.036mm)(19.835mm,34.485mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (36.69mm,39.87mm)(36.69mm,40.181mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (36.69mm,39.87mm)(36.79mm,39.77mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (36.69mm,40.181mm)(36.79mm,40.281mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (36.75mm,40.61mm)(36.75mm,41.425mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (36.75mm,40.61mm)(36.79mm,40.57mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (36.79mm,39.585mm)(36.79mm,39.77mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (36.79mm,39.585mm)(37.05mm,39.325mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (36.79mm,40.281mm)(36.79mm,40.57mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (37.05mm,39.325mm)(37.565mm,39.325mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (37.565mm,39.325mm)(37.695mm,39.455mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (37.695mm,39.455mm)(37.905mm,39.455mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (37.7mm,40.05mm)(37.7mm,40.8mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (37.7mm,40.05mm)(38.1mm,39.65mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (37.7mm,40.8mm)(38mm,41.1mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (37.905mm,39.455mm)(38.1mm,39.65mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (38.1mm,39.65mm)(39.19mm,39.65mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (38.9mm,39.65mm)(38.9mm,39.935mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (38.9mm,39.935mm)(39.19mm,40.225mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (38mm,41.1mm)(38mm,41.575mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (39.05mm,40.9mm)(39.05mm,41.225mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (39.05mm,40.9mm)(39.19mm,40.76mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (39.19mm,39.65mm)(39.54mm,39.3mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (39.19mm,40.225mm)(39.19mm,40.76mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (39.54mm,39.3mm)(39.775mm,39.3mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (39.775mm,39.3mm)(39.79mm,39.315mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (39.79mm,39.315mm)(39.925mm,39.315mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (39.925mm,39.315mm)(40.035mm,39.425mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (40.035mm,39.425mm)(40.035mm,40.185mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (40.035mm,40.185mm)(40.125mm,40.275mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (40.125mm,40.275mm)(40.125mm,41.85mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+   Violation between Width Constraint: Track (40.125mm,41.85mm)(40.125mm,43.775mm) on Bottom Layer Actual Width = 0.08mm, Target Width = 0.09mm
+Rule Violations :56
+
+Processing Rule : Width Constraint (Min=0.08mm) (Max=10mm) (Preferred=0.1mm) (WithinRoom('RoomDefinition')and TouchesRoom('RoomDefinition'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.08mm) (Max=10mm) (Preferred=0.25mm) (InNetClass('Alim'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.08mm) (Max=10mm) (Preferred=0.12mm) (WithinRoom('RoomDefinition_2')and TouchesRoom('RoomDefinition_2'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.08mm) (Max=10mm) (Preferred=0.1mm) (WithinRoom('RoomDefinition_1')and TouchesRoom('RoomDefinition_1'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.IO15'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.DQS1'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.IO11'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNetClass('OCTOSPI'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNetClass('USB High Speed'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.IO9'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.IO12'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.IO4'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.IO0'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.IO2'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.IO1'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.IO14'))
+   Violation between Routing Layers: Track (32.075mm,11.075mm)(32.075mm,23.111mm) on Bottom Layer - Layer Not Allowed
+   Violation between Routing Layers: Track (32.075mm,11.075mm)(33.075mm,10.075mm) on Bottom Layer - Layer Not Allowed
+   Violation between Routing Layers: Track (32.075mm,23.111mm)(35.076mm,26.112mm) on Bottom Layer - Layer Not Allowed
+   Violation between Routing Layers: Track (33.075mm,10.075mm)(37.6mm,10.075mm) on Bottom Layer - Layer Not Allowed
+   Violation between Routing Layers: Track (35.076mm,26.112mm)(35.076mm,26.651mm) on Bottom Layer - Layer Not Allowed
+   Violation between Routing Layers: Track (35.076mm,26.651mm)(35.975mm,27.55mm) on Bottom Layer - Layer Not Allowed
+   Violation between Routing Layers: Track (35.975mm,27.55mm)(35.975mm,28.95mm) on Bottom Layer - Layer Not Allowed
+   Violation between Routing Layers: Track (35.975mm,28.95mm)(36mm,28.975mm) on Bottom Layer - Layer Not Allowed
+   Violation between Routing Layers: Track (36mm,28.975mm)(36mm,30.35mm) on Bottom Layer - Layer Not Allowed
+   Violation between Routing Layers: Track (36mm,30.35mm)(36.5mm,30.85mm) on Bottom Layer - Layer Not Allowed
+   Violation between Routing Layers: Track (37.6mm,10.075mm)(38.175mm,10.65mm) on Bottom Layer - Layer Not Allowed
+   Violation between Routing Layers: Track (38.175mm,10.65mm)(38.175mm,11mm) on Bottom Layer - Layer Not Allowed
+Rule Violations :12
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.DQS0'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.NCS'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.IO13'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.IO6'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.IO5'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.IO10'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.IO3'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.IO7'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNet('HEXASPI1.IO8'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNetClass('HEXADECASPI'))
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=0.1mm) (MaxHoleWidth=0.2mm) (PreferredHoleWidth=0.2mm) (MinWidth=0.25mm) (MaxWidth=0.45mm) (PreferedWidth=0.45mm) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.127mm) (Max=0.254mm) (Prefered=0.254mm)  and Width Constraints (Min=0.044mm) (Max=0.381mm) (Prefered=0.381mm) (InDifferentialPairClass('DSI'))
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.1mm) (Max=0.254mm) (Prefered=0.127mm)  and Width Constraints (Min=0.095mm) (Max=0.381mm) (Prefered=0.381mm) (InDifferentialPairClass('USB'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.21mm) (Air Gap=0.21mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.2mm) (All),(All)
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.2mm) Between Pad CN2-1(15.579mm,48.979mm) on Multi-Layer And Pad H5-PTH1(15.579mm,48.979mm) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.2mm) Between Pad CN2-PTH2(58.519mm,53.51mm) on Multi-Layer And Pad H4-PTH1(58.519mm,53.51mm) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (0.183mm < 0.2mm) Between Via (40.3mm,39.85mm) from Signal Layer 4 to Bottom Layer And Via (40.5mm,39.65mm) from Signal Layer 3 to Signal Layer 4 
+   Violation between Hole To Hole Clearance Constraint: (0.183mm < 0.2mm) Between Via (55.175mm,10.125mm) from Top Layer to Signal Layer 1 And Via (55.375mm,10.325mm) from Signal Layer 1 to Signal Layer 2 
+   Violation between Hole To Hole Clearance Constraint: (0.183mm < 0.2mm) Between Via (55.2mm,16.95mm) from Signal Layer 1 to Signal Layer 2 And Via (55mm,17.15mm) from Top Layer to Signal Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (0.183mm < 0.2mm) Between Via (55.2mm,16mm) from Signal Layer 1 to Signal Layer 2 And Via (55mm,16.2mm) from Top Layer to Signal Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (0.183mm < 0.2mm) Between Via (57.9mm,20.225mm) from Top Layer to Signal Layer 1 And Via (58.1mm,20.025mm) from Signal Layer 1 to Signal Layer 2 
+   Violation between Hole To Hole Clearance Constraint: (0.19mm < 0.2mm) Between Via (58.85mm,19.925mm) from Signal Layer 1 to Signal Layer 2 And Via (58.86mm,20.215mm) from Top Layer to Signal Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (0.183mm < 0.2mm) Between Via (59.125mm,9.3mm) from Top Layer to Signal Layer 1 And Via (59.325mm,9.5mm) from Signal Layer 1 to Signal Layer 2 
+   Violation between Hole To Hole Clearance Constraint: (0.183mm < 0.2mm) Between Via (60.1mm,9.3mm) from Top Layer to Signal Layer 1 And Via (60.3mm,9.5mm) from Signal Layer 1 to Signal Layer 2 
+   Violation between Hole To Hole Clearance Constraint: (0.183mm < 0.2mm) Between Via (60.375mm,20.1mm) from Top Layer to Signal Layer 1 And Via (60.575mm,19.9mm) from Signal Layer 1 to Signal Layer 2 
+   Violation between Hole To Hole Clearance Constraint: (0.183mm < 0.2mm) Between Via (61.025mm,9.3mm) from Top Layer to Signal Layer 1 And Via (61.225mm,9.5mm) from Signal Layer 1 to Signal Layer 2 
+   Violation between Hole To Hole Clearance Constraint: (0.183mm < 0.2mm) Between Via (65.5mm,14.5mm) from Signal Layer 1 to Signal Layer 2 And Via (65.7mm,14.7mm) from Top Layer to Signal Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (0.183mm < 0.2mm) Between Via (65.65mm,15.375mm) from Signal Layer 1 to Signal Layer 2 And Via (65.85mm,15.575mm) from Top Layer to Signal Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (0.183mm < 0.2mm) Between Via (65.8mm,11.95mm) from Signal Layer 1 to Signal Layer 2 And Via (66mm,11.75mm) from Top Layer to Signal Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (0.183mm < 0.2mm) Between Via (68.4mm,19.325mm) from Signal Layer 3 to Signal Layer 4 And Via (68.6mm,19.525mm) from Signal Layer 4 to Bottom Layer 
+Rule Violations :16
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+   Violation between Net Antennae: Via (13.489mm,48.21mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (14.81mm,51.069mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (16.348mm,46.889mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (17.669mm,49.748mm) from Top Layer to Bottom Layer 
+Rule Violations :4
+
+Processing Rule : Matched Lengths(Tolerance=17.78mm Target=Not defined) (InxSignalClass('HexaSPI_NCS'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InxSignalClass('HexaSPI_Byte1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.127mm Target=Not defined) (InNet('DSI.CK_N'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=6.35mm Target=Not defined) (InNetClass('SPI3'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=19.05mm Target=Not defined) (InxSignalClass('OctoSPI_NCS'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InDifferentialPairClass('USB'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InxSignalClass('JTAG_MCU'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=6.35mm Target=Not defined) (InxSignalClass('SDMMC2'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=6.35mm Target=Not defined) (InxSignalClass('SPI_B'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=2.54mm Target=Not defined) (InxSignalClass('JTAG_STLink'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InxSignalClass('JTAG_CN10'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InxSignalClass('JTAG_CN11'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InxSignalClass('OctoSPI_Byte0'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InxSignalClass('eMMC'))
+   Violation between Matched Net Lengths: Between xSignal(SDMMC1.CMD_PP2) And xSignal(SDMMC1.D5_PP2) Actual Length Difference against xSignal SDMMC1.D5_PP2 is: 1.319mm, Length Tolerance : 1.27mm.
+Rule Violations :1
+
+Processing Rule : Matched Lengths(Tolerance=0.254mm Target=Not defined) (InDifferentialPairClass('DSI'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=6.35mm Target=Not defined) (InxSignalClass('Audio_SAI2'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=6.35mm Target=Not defined) (InxSignalClass('Audio_SAI1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InxSignalClass('HexaSPI_Byte0'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('SDMMC1.D6'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.IO9'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.IO1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.IO8'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.IO15'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNetClass('HEXADECASPI'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.DQS0'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('SDMMC1.D2'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.IO5'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.IO0'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('SDMMC1.D3'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1.27mm Target=Not defined) (InNet('SDMMC1.CMD'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('SDMMC1.D4'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=12.7mm Target=Not defined) (InNet('OCTOSPIM_P1.NCS'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm) (InNetClass('OCTOSPI'))
+   Violation between Matched Net Lengths: Between Net OCTOSPIM_P1.CLK And Net OCTOSPIM_P1.DQS Length:27.155mm is not within 0.508mm tolerance of Length:28.124mm (0.461mm short) 
+   Violation between Matched Net Lengths: Between Net OCTOSPIM_P1.CLK And Net OCTOSPIM_P1.IO0 Length:27.2mm is not within 0.508mm tolerance of Length:28.124mm (0.416mm short) 
+   Violation between Matched Net Lengths: Between Net OCTOSPIM_P1.CLK And Net OCTOSPIM_P1.IO1 Length:27.087mm is not within 0.508mm tolerance of Length:28.124mm (0.529mm short) 
+   Violation between Matched Net Lengths: Between Net OCTOSPIM_P1.CLK And Net OCTOSPIM_P1.IO2 Length:26.91mm is not within 0.508mm tolerance of Length:28.124mm (0.707mm short) 
+   Violation between Matched Net Lengths: Between Net OCTOSPIM_P1.CLK And Net OCTOSPIM_P1.IO3 Length:27.398mm is not within 0.508mm tolerance of Length:28.124mm (0.218mm short) 
+   Violation between Matched Net Lengths: Between Net OCTOSPIM_P1.CLK And Net OCTOSPIM_P1.IO4 Length:26.988mm is not within 0.508mm tolerance of Length:28.124mm (0.628mm short) 
+   Violation between Matched Net Lengths: Between Net OCTOSPIM_P1.CLK And Net OCTOSPIM_P1.IO5 Length:27.2mm is not within 0.508mm tolerance of Length:28.124mm (0.416mm short) 
+   Violation between Matched Net Lengths: Between Net OCTOSPIM_P1.CLK And Net OCTOSPIM_P1.IO6 Length:27.2mm is not within 0.508mm tolerance of Length:28.124mm (0.416mm short) 
+   Violation between Matched Net Lengths: Between Net OCTOSPIM_P1.CLK And Net OCTOSPIM_P1.IO7 Length:27.2mm is not within 0.508mm tolerance of Length:28.124mm (0.416mm short) 
+   Violation between Matched Net Lengths: Between Net OCTOSPIM_P1.CLK And Net OCTOSPIM_P1.NCS Length:24.545mm is not within 0.508mm tolerance of Length:28.124mm (3.071mm short) 
+Rule Violations :10
+
+Processing Rule : Matched Lengths(Tolerance=25.4mm Target=Not defined) (InNet('HEXASPI1.NCS'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('SDMMC1.D5'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.IO3'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.IO14'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.IO13'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.IO2'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('SDMMC1.D1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.DQS1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0mm Target=Not defined) (InNet('DSI.CK_P'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0mm Target=Not defined) (InNet('USBC.HS_N'))
+   Violation between Matched Net Lengths: Between Net USBC.HS_N And Net USBC.HS_P Actual Difference against USBC.HS_P is: 0.047mm, Tolerance : 0mm. 
+Rule Violations :1
+
+Processing Rule : Matched Lengths(Tolerance=0mm Target=Not defined) (InNet('DSI.D1_P'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0mm Target=Not defined) (InNet('USB_DEV_HS_CN_N'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0mm Target=Not defined) (InNet('USB_DEV_HS_CN_P'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0mm Target=Not defined) (InNet('DSI.D0_N'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0mm Target=Not defined) (InNet('USB_DEV_HS_P'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0mm Target=Not defined) (InNet('DSI.D0_P'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0mm Target=Not defined) (InNet('USB_DEV_HS_N'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0mm Target=Not defined) (InNet('DSI.D1_N'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0mm Target=Not defined) (InNet('USBC_CN_HS_N'))
+   Violation between Matched Net Lengths: Between Net USBC_CN_HS_N And Net USBC_CN_HS_P Actual Difference against USBC_CN_HS_P is: 0.134mm, Tolerance : 0mm. 
+Rule Violations :1
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.IO10'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.IO4'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.IO6'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.IO7'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.IO12'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('SDMMC1.CK'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.152mm Target=Not defined) (InNet('USBC.HS_P'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.152mm Target=Not defined) (InNet('USBC_CN_HS_P'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('SDMMC1.D7'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNet('HEXASPI1.IO11'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm Target=Not defined) (InNetClass('eMMC'))
+Rule Violations :0
+
+
+Violations Detected : 190
+Waived Violations : 0
+Time Elapsed        : 00:00:03

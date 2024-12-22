@@ -1,0 +1,81 @@
+Removed Pin From Net: NetName=GND Pin=CN2-PTH2
+Removed Pin From Net: NetName=GND Pin=H4-PTH1
+Removed Pin From Net: NetName=GND Pin=H5-PTH1
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=1V8_AUDIO
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=1V8_LCD
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=1V8
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=3V3_LCD
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=3V3_STLK
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=5V_LCD
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=5V_STLK
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=5V_UCPD
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=5V_USB_CHGR
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=5V_VIN
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=5V
+Removed Member From Class: ClassName=U_USBHS_TYPEC_Nets Member=DSI.CK_N
+Removed Member From Class: ClassName=U_USBHS_TYPEC_Nets Member=DSI.CK_P
+Removed Member From Class: ClassName=U_USBHS_TYPEC_Nets Member=DSI.D0_N
+Removed Member From Class: ClassName=U_USBHS_TYPEC_Nets Member=DSI.D0_P
+Removed Member From Class: ClassName=U_USBHS_TYPEC_Nets Member=DSI.D1_N
+Removed Member From Class: ClassName=U_USBHS_TYPEC_Nets Member=DSI.D1_P
+Removed Member From Class: ClassName=HEXASPI Member=HEXASPI1.CLK
+Removed Member From Class: ClassName=U_MCU_CLOCK_AND_USER_INTERFACE_Nets Member=NetC14_1
+Removed Member From Class: ClassName=PB[0..15] Member=NetCN9_4
+Removed Member From Class: ClassName=U_MB1829_TOP_Nets Member=NetCN9_4
+Removed Member From Class: ClassName=PB[0..15] Member=NetCN9_6
+Removed Member From Class: ClassName=U_MB1829_TOP_Nets Member=NetCN9_6
+Removed Member From Class: ClassName=PD[0..15] Member=NetCN10_13
+Removed Member From Class: ClassName=U_MB1829_TOP_Nets Member=NetCN10_13
+Removed Member From Class: ClassName=PD[0..15] Member=NetCN10_15
+Removed Member From Class: ClassName=U_MB1829_TOP_Nets Member=NetCN10_15
+Removed Member From Class: ClassName=U_MB1829_TOP_Nets Member=NetCN10_17
+Removed Member From Class: ClassName=U_MB1829_TOP_Nets Member=NetCN10_19
+Removed Member From Class: ClassName=U_MB1829_TOP_Nets Member=NetR12_1
+Removed Member From Class: ClassName=OCTOSPI Member=NetR23_1
+Removed Member From Class: ClassName=U_MB1829_TOP_Nets Member=NetR121_1
+Removed Member From Class: ClassName=U_ST_LINK_V3E_Nets Member=PB3
+Removed Member From Class: ClassName=U_EXPANSION_CONNECTORS_Nets Member=PB12
+Removed Member From Class: ClassName=U_EXPANSION_CONNECTORS_Nets Member=PB13
+Removed Member From Class: ClassName=U_EXPANSION_CONNECTORS_Nets Member=PD3
+Removed Member From Class: ClassName=U_EXPANSION_CONNECTORS_Nets Member=PD4
+Removed Member From Class: ClassName=PB[0..15] Member=PD6
+Removed Member From Class: ClassName=PB[0..15] Member=PD7
+Removed Member From Class: ClassName=PE[0..15] Member=SAI1.SD_B
+Removed Member From Class: ClassName=eMMC Member=SDMMC1.CK
+Removed Member From Class: ClassName=eMMC Member=SDMMC1.CMD
+Removed Member From Class: ClassName=eMMC Member=SDMMC1.D1
+Removed Member From Class: ClassName=eMMC Member=SDMMC1.D2
+Removed Member From Class: ClassName=eMMC Member=SDMMC1.D3
+Removed Member From Class: ClassName=eMMC Member=SDMMC1.D4
+Removed Member From Class: ClassName=eMMC Member=SDMMC1.D5
+Removed Member From Class: ClassName=eMMC Member=SDMMC1.D6
+Removed Member From Class: ClassName=eMMC Member=SDMMC1.D7
+Removed Member From Class: ClassName=U_MB1829_TOP_Nets Member=SPI_CLK
+Removed Member From Class: ClassName=U_MB1829_TOP_Nets Member=SPI_MOSI
+Removed Member From Class: ClassName=U_MB1829_TOP_Nets Member=T_SWCLKa
+Removed Member From Class: ClassName=U_MB1829_TOP_Nets Member=T_SWDIO_IN
+Removed Member From Class: ClassName=U_MB1829_TOP_Nets Member=T_SWDIOa
+Removed Member From Class: ClassName=U_MB1829_TOP_Nets Member=T_SWOa
+Removed Member From Class: ClassName=U_USBHS_TYPEC_Nets Member=USB_DEV_HS_CN_N
+Removed Member From Class: ClassName=USB High Speed Member=USB_DEV_HS_CN_N
+Removed Member From Class: ClassName=U_USBHS_TYPEC_Nets Member=USB_DEV_HS_CN_P
+Removed Member From Class: ClassName=USB High Speed Member=USB_DEV_HS_CN_P
+Removed Member From Class: ClassName=U_USBHS_TYPEC_Nets Member=USB_DEV_HS_N
+Removed Member From Class: ClassName=USB High Speed Member=USB_DEV_HS_N
+Removed Member From Class: ClassName=U_USBHS_TYPEC_Nets Member=USB_DEV_HS_P
+Removed Member From Class: ClassName=USB High Speed Member=USB_DEV_HS_P
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=VBUS_SENSE
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=VBUSc
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=VCC_eMMC
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=VCCQ_eMMC
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=VDD_HEXASPI
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=VDD_LCD
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=VDD_OCTOSPI
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=VDD
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=VDDMCU_SMPS
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=VIN
+Removed Member From Class: ClassName=U_MCU_PWR_Nets Member=VL_AUDIO
+Change Footprint: Footprint Not Found MOS_TSOP6_CASE-457_P095
+Add Pin To Net: Unknown Pin: Pin H4-1
+Add Pin To Net: Unknown Pin: Pin H5-1
+Add Class Member: Failed to add class member : Component HW7 PCB
